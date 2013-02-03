@@ -147,6 +147,7 @@ menu li ul {
 menu li:hover ul,
 menu li.active ul {
     display: block;
+    z-index: 1;
 }
 
 menu li:hover ul {
@@ -209,7 +210,9 @@ h1 {
     margin-top: 20px;
     width:95%;
 }
-
+#licensemap img {
+    width: 650px;
+}
 .photo-right {
     border: 5px solid #333333;
     box-shadow: 5px 5px 5px 0px #ccc;
@@ -256,13 +259,19 @@ h2.divider {
     position: relative;
 }
 .stateoverlay {
-    height: 100px;
+    background-color: rgba(253,228,0,0.8);
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px #333;
+    display: none;
+    left: 20px;
+    padding: 10px;
     position: absolute;
-    width: 100px;
+    top: 40px;
 }
-#colorado {
-    left: 0;
-    top: 0;
+#co {
+    left: 20px;
+    top: 40px;
 }
 
 footer {

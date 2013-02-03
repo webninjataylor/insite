@@ -37,9 +37,11 @@ for(i=0; i < $('menu').children('li').length; i++){
 
 $('.state').hover(
     function(){
-        console.log($(this).attr('data-id'));
+        var state = $(this).attr('data-id');
+        $('#'+state).toggle();
     },
     function(){
-        console.log('WHERE?!');
+        var state = $(this).attr('data-id');
+        $('#'+state).toggle();
     }
 );
