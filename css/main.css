@@ -10,8 +10,8 @@ The iPhone is 320×480, the iPhone 4 is 640×960 and the iPhone 5 is 640×1136
 
 */
 body {
-    background: rgba(255,255,255,1) url('../images/watermark4.gif') repeat; /*../OLD/images/watermark.gif*/
-    border:1px solid rgba(0,0,0,1);
+    background: url('../images/watermark4.gif') repeat; /*../OLD/images/watermark.gif*/
+    border: 1px solid rgba(0,0,0,1);
     border-radius: 10px;
     box-shadow: 0px 0px 5px 5px rgba(136, 136, 136, .5);
     margin: 10px auto;
@@ -20,21 +20,11 @@ body {
 }
 
 header {
-    background: #333333;
+    background-color: #ffffff;
     border-radius: 10px 10px 0 0;
     color: #ffffff;
     margin: 0;
     position: relative;
-
-    background: rgb(125,126,125); /* Old browsers */
-    background: -moz-linear-gradient(45deg,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(125,126,125,1)), color-stop(100%,rgba(14,14,14,1))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(45deg,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(45deg,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(45deg,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* IE10+ */
-    background: linear-gradient(45deg,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
 }
 
 header img#logo {
@@ -53,10 +43,20 @@ header img.banner {
 aside#contact {
     color: #ffffff;
     font-size: .9em;
+    height: 217px;
+    padding: 10px;
     position: absolute;
     right: 0;
-    top: 9px;
-    width: 410px;
+    top: 0;
+    width: 260px;
+    background: #333333; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(125,126,125,1)), color-stop(100%,rgba(14,14,14,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* IE10+ */
+    background: linear-gradient(45deg,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 aside#contact div {
@@ -71,11 +71,15 @@ div#address {
 }
 
 div#pfe {
+    clear: both;
     float: left;
+}
+div#pfe a, div#pfe a:visited {
+    color: #ffffff;
 }
 
 section {
-	background-color: #ffffff;
+    background-color: #ffffff;
     overflow: hidden;
     position: relative;
     width: 100%;
@@ -96,7 +100,7 @@ menu {
     padding: 0;
     position: absolute;
     /*text-transform: uppercase;*/
-    width: 220px;
+    width: 130px;
 
     background: rgb(125,126,125); /* Old browsers */
     background: -moz-linear-gradient(45deg,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6+ */
@@ -120,7 +124,7 @@ menu li a:visited {
     color: #ffffff;
     display: block;
     padding: 5px;
-    width: 210px;
+    width: 120px;
 }
 
 menu li:hover {
@@ -147,12 +151,11 @@ menu li ul {
 menu li:hover ul,
 menu li.active ul {
     display: block;
-    z-index: 1;
 }
 
 menu li:hover ul {
     background-color: rgba(253,228,0,1);
-    left: 221px;
+    left: 131px;
     position: absolute;
     top: 0;
 }
@@ -177,7 +180,7 @@ article {
     line-height: 1.5;
     min-height: 800px;
     padding: 30px;
-    width: 670px;
+    width: 750px;
 }
 
 article p,
@@ -269,16 +272,11 @@ h2.divider {
     position: absolute;
     top: 40px;
 }
-#co {
-    left: 20px;
-    top: 40px;
-}
-
 footer {
-	background-color: #333333;
-	border-radius: 0 0 10px 10px;
+    background-color: #333333;
+    border-radius: 0 0 10px 10px;
     border-top: 1px solid #fff;
-	clear: both;
+    clear: both;
     color: #ffffff;
     font-size: .7em;
     padding: 20px;
@@ -306,42 +304,54 @@ footer a:hover {
 /* iPad Portrait View */
 /* NOTE: The default layout is optimized for iPad landscape, so it's not declared here. */
 /* NOTE: The min-width to max-width is for the sake of a fluidly resized window on a laptop or desktop browser. */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 753px) and (max-width: 1008px) {  /* Scrollbar makes it 1008 instead of 1023 */
     body {
-        width: 728px;
+        width: 720px;
+    }
+    article {
+        width: 510px;
     }
 }
 /* iPhone Landscape View */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 465px) and (max-width: 752px) {
     body {
-        width: 440px;
+        width: 460px;
+    }
+    aside#contact {
+        font-size: 10px;
+        width: 120px;
+    }
+    article {
+        width: 260px;
+    }
+    a.wnt {
+        clear: both;
+        display: block;
     }
 }
 /* iPhone Portrait View */
-@media only screen and (min-width: 320px) and (max-width: 479px) {
+@media only screen and (min-width: 320px) and (max-width: 464px) {
     body {
-        width: 280px;
-    }
-    header {}
-    header img#logo {
         width: 300px;
     }
-    header img.banner {
-        display: none;
+    header img#logo {
+        width: 280px;
     }
     aside#contact {
-        display: none;
-        left: 0;
-        position: relative;
-        top: 0;
+        font-size: 10px;
+        height: 178px;
+        position: absolute;
+        right: 0;
+        top: 185px;
+        width: 149px;
+        z-index: 1;
     }
-    section {}
     menu {
         height: auto;
-        width: 320px;
     }
     article {
-        width: 320px;
+        padding: 20px;
+        padding-top: 198px;
+        width: 255px;
     }
-    footer {}
 }
