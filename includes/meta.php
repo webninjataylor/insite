@@ -5,5 +5,4 @@
 <link rel="apple-touch-icon" href="images/ipad_homescreen_icon.png" />
 <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 <!-- CSS and Initial JS -->
-<link rel="stylesheet" href="http://www.webninjataylor.com/development/insite/css/reset.css">
 <link rel="stylesheet" href="http://www.webninjataylor.com/development/insite/css/main.css">
