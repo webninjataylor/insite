@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>InSite: Job Opportunities</title>
-    <?php include('http://www.webninjataylor.com/development/insite/includes/meta.php'); ?>
+    <?php include('../includes/meta.php'); ?>
 </head>
 <body ontouchmove="BlockMove(event);">
-    <?php include('http://www.webninjataylor.com/development/insite/includes/header.php'); ?>
+    <?php include('../includes/header.php'); ?>
     <section>
-        <?php include('http://www.webninjataylor.com/development/insite/includes/menu.php'); ?>
+        <?php include('../includes/menu.php'); ?>
         <article>
             <h1>Job Opportunities</h1>
             
@@ -34,6 +34,6 @@
             <p>The qualified candidate must have at least three (3) years of experience working in the capacity described above, as well as a high school diploma.  The candidate must be knowledgeable in general computer operation and maintenance, such as: networking, Microsoft Office, and plotters and printers.</p>
         </article>
     </section>
-    <?php include('http://www.webninjataylor.com/development/insite/includes/footer.php'); ?>
+    <?php include('../includes/footer.php'); ?>
 </body>
 </html>

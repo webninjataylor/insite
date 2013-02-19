@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>InSite: Land Surveying</title>
-    <?php include('http://www.webninjataylor.com/development/insite/includes/meta.php'); ?>
+    <?php include('../includes/meta.php'); ?>
 </head>
 <body ontouchmove="BlockMove(event);">
-    <?php include('http://www.webninjataylor.com/development/insite/includes/header.php'); ?>
+    <?php include('../includes/header.php'); ?>
     <section>
-        <?php include('http://www.webninjataylor.com/development/insite/includes/menu.php'); ?>
+        <?php include('../includes/menu.php'); ?>
         <article>
             <h1>Land Surveying</h1>
             <p>Land Surveying Services include:</p>
@@ -22,6 +22,6 @@
             </ul>
         </article>
     </section>
-    <?php include('http://www.webninjataylor.com/development/insite/includes/footer.php'); ?>
+    <?php include('../includes/footer.php'); ?>
 </body>
 </html>

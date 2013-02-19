@@ -1,36 +1,34 @@
 <menu>
-    <li><a href="http://www.webninjataylor.com/development/insite/about.php">About</a>
+    <li><a href="/development/insite/about.php">About</a>
         <ul>
-            <li><a href="http://www.webninjataylor.com/development/insite/about/keyprofessionals.php">Key Professionals</a></li>
-            <li><a href="http://www.webninjataylor.com/development/insite/about/professionallicensure.php">Professional Licensure</a></li>
-            <li><a href="http://www.webninjataylor.com/development/insite/about/affiliations.php">Affiliations</a></li>
-            <li><a href="http://www.webninjataylor.com/development/insite/about/clientlist.php">Client List</a></li>
+            <li><a href="/development/insite/about/keyprofessionals.php">Key Professionals</a></li>
+            <li><a href="/development/insite/about/professionallicensure.php">Professional Licensure</a></li>
+            <li><a href="/development/insite/about/affiliations.php">Affiliations</a></li>
+            <li><a href="/development/insite/about/clientlist.php">Client List</a></li>
         </ul>
     </li>
-    <li><a href="http://www.webninjataylor.com/development/insite/services.php">Services</a>
+    <li><a href="/development/insite/services.php">Services</a>
         <ul>
-            <li><a href="http://www.webninjataylor.com/development/insite/services/civilengineering.php">Civil Engineering</a></li>
-            <li><a href="http://www.webninjataylor.com/development/insite/services/structuralengineering.php">Structural Engineering</a></li>
-            <li><a href="http://www.webninjataylor.com/development/insite/services/waterfrontdevelopment.php">Waterfront Development</a></li>
-            <li><a href="http://www.webninjataylor.com/development/insite/services/siteplanning.php">Site Planning</a></li>
-            <li><a href="http://www.webninjataylor.com/development/insite/services/landscapearchitecture.php">Landscape Architecture</a></li>
-            <li><a href="http://www.webninjataylor.com/development/insite/services/duediligence.php">Due Diligence</a></li>
-            <li><a href="http://www.webninjataylor.com/development/insite/services/permitting.php">Permitting</a></li>
-            <li><a href="http://www.webninjataylor.com/development/insite/services/landsurveying.php">Land Surveying</a></li>
-            <li><a href="http://www.webninjataylor.com/development/insite/services/environmentalstudies.php">Environmental Studies</a></li>
-            <li><a href="http://www.webninjataylor.com/development/insite/services/geotechnical.php">Geotechnical</a></li>
-            <li><a href="http://www.webninjataylor.com/development/insite/services/transportationengineering.php">Transportation Engineering</a></li>
-            <li><a href="http://www.webninjataylor.com/development/insite/services/constructionservices.php">Construction Services</a></li>
+            <li><a href="/development/insite/services/civilengineering.php">Civil Engineering</a></li>
+            <li><a href="/development/insite/services/structuralengineering.php">Structural Engineering</a></li>
+            <li><a href="/development/insite/services/waterfrontdevelopment.php">Waterfront Development</a></li>
+            <li><a href="/development/insite/services/disasterrecovery.php">Disaster Recovery</a></li>
+            <li><a href="/development/insite/services/professionalplanning.php">Professional Planning</a></li>
+            <li><a href="/development/insite/services/landscapedesign.php">Landscape Design</a></li>
+            <li><a href="/development/insite/services/duediligence.php">Due Diligence</a></li>
+            <li><a href="/development/insite/services/permitting.php">Permitting &amp; Expediting</a></li>
+            <li><a href="/development/insite/services/landsurveying.php">Land Surveying</a></li>
+            <li><a href="/development/insite/services/environmentalstudies.php">Environmental Studies</a></li>
+            <li><a href="/development/insite/services/geotechnical.php">Geotechnical</a></li>
+            <li><a href="/development/insite/services/trafficengineering.php">Traffic Engineering</a></li>
+            <li><a href="/development/insite/services/constructionservices.php">Construction Services</a></li>
+            <li><a href="/development/insite/services/experttestimony.php">Expert Testimony</a></li>
         </ul>
     </li>
-    <li><a href="http://www.webninjataylor.com/development/insite/pressreleases.php">Press Releases</a></li>
-    <li><a href="http://www.webninjataylor.com/development/insite/employment.php">Employment</a>
-        <ul>
-            <li><a href="http://www.webninjataylor.com/development/insite/employment/corporateculture.php">Corporate Culture</a></li>
-            <li><a href="http://www.webninjataylor.com/development/insite/employment/jobopportunities.php">Job Opportunities</a></li>
-            <li><a href="http://www.webninjataylor.com/development/insite/employment/benefits.php">Benefits</a></li>
-        </ul>
-    </li>
-    <li><a href="http://www.webninjataylor.com/development/insite/clientaccess.php">Client Access</a></li>
-    <li><a href="http://www.webninjataylor.com/development/insite/contactus.php">Contact Us</a></li>
+    <li><a href="/development/insite/projects.php">Representative Projects</a></li>
+    <li><a href="/development/insite/milestones.php">Milestones</a></li>
+    <li><a href="/development/insite/careers.php">Careers</a></li>
+    <li><a href="/development/insite/clientaccess.php">Client Access</a></li>
+    <li><a href="/development/insite/contactus.php">Contact Us</a></li>
+    <img src="/development/insite/images/logos/badge-10years3.png" id="tenyearslogo">
 </menu>

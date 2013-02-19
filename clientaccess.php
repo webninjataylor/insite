@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>InSite: Client Access</title>
-    <?php include('http://www.webninjataylor.com/development/insite/includes/meta.php'); ?>
+    <?php include('includes/meta.php'); ?>
 </head>
 <body ontouchmove="BlockMove(event);">
-    <?php include('http://www.webninjataylor.com/development/insite/includes/header.php'); ?>
+    <?php include('includes/header.php'); ?>
     <section>
-        <?php include('http://www.webninjataylor.com/development/insite/includes/menu.php'); ?>
+        <?php include('includes/menu.php'); ?>
         <article>
             <h1>Client Access</h1>
-            <img src="images/underconstruction.png" alt="" class="photo-right">
-            <p style="padding-bottom:200px;">Under Construction...</p>
+            <div style="text-align:center;">
+                <img src="images/underconstruction.png" alt="" class="photo-right" style="float:none;">
+            </div>
         </article>
     </section>
-    <?php include('http://www.webninjataylor.com/development/insite/includes/footer.php'); ?>
+    <?php include('includes/footer.php'); ?>
 </body>
 </html>

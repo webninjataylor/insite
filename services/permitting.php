@@ -2,15 +2,15 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <title>InSite: Permitting</title>
-    <?php include('http://www.webninjataylor.com/development/insite/includes/meta.php'); ?>
+    <title>InSite: Permitting &amp; Expediting</title>
+    <?php include('../includes/meta.php'); ?>
 </head>
 <body ontouchmove="BlockMove(event);">
-    <?php include('http://www.webninjataylor.com/development/insite/includes/header.php'); ?>
+    <?php include('../includes/header.php'); ?>
     <section>
-        <?php include('http://www.webninjataylor.com/development/insite/includes/menu.php'); ?>
+        <?php include('../includes/menu.php'); ?>
         <article>
-            <h1>Permitting</h1>
+            <h1>Permitting &amp; Expediting</h1>
             <p>Permitting and Expediting Services include:</p>
             <ul>
                 <li>Municipal</li>
@@ -24,6 +24,6 @@
             </ul>
         </article>
     </section>
-    <?php include('http://www.webninjataylor.com/development/insite/includes/footer.php'); ?>
+    <?php include('../includes/footer.php'); ?>
 </body>
 </html>

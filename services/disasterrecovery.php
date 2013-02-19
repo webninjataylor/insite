@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <title>InSite: Corporate Culture</title>
+    <title>InSite: Disaster Recovery</title>
     <?php include('../includes/meta.php'); ?>
 </head>
 <body ontouchmove="BlockMove(event);">
@@ -10,8 +10,8 @@
     <section>
         <?php include('../includes/menu.php'); ?>
         <article>
-            <h1>Corporate Culture</h1>
-            <p style="padding-bottom:200px;" class="important">TEXT</p>
+            <h1>Disaster Recovery</h1>
+            <p class="important">CONTENT</p>
         </article>
     </section>
     <?php include('../includes/footer.php'); ?>

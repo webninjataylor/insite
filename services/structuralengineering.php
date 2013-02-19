@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>InSite: Structural Engineering</title>
-    <?php include('http://www.webninjataylor.com/development/insite/includes/meta.php'); ?>
+    <?php include('../includes/meta.php'); ?>
 </head>
 <body ontouchmove="BlockMove(event);">
-    <?php include('http://www.webninjataylor.com/development/insite/includes/header.php'); ?>
+    <?php include('../includes/header.php'); ?>
     <section>
-        <?php include('http://www.webninjataylor.com/development/insite/includes/menu.php'); ?>
+        <?php include('../includes/menu.php'); ?>
         <article>
             <h1>Structural Engineering</h1>
             <p>Structural Engineering Services include:</p>
@@ -37,9 +37,8 @@
 
                 </li>
             </ul>
-            <p class="important">Insert Images</p>
         </article>
     </section>
-    <?php include('http://www.webninjataylor.com/development/insite/includes/footer.php'); ?>
+    <?php include('../includes/footer.php'); ?>
 </body>
 </html>

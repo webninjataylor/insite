@@ -1,4 +1,4 @@
-insite
+InSite
 ======
 
-InSite website
+InSite Website
