@@ -64,7 +64,7 @@
                 <div class="peekaboo" id="rs">
                     <strong>Residential Subdivision</strong>
                     <img src="images/russo.png" class="photo rp">
-                    <p>NEED TEXT</p>
+                    <p>InSite designed a major residential subdivision of the 5.4-acre property.  Following our client’s development goals, we prepared the subdivision design to be variance free in an effort to secure speedy approvals.  Through creative Professional Engineeringdesign techniques, we were able to avoid several jurisdictionalthresholds, including some key elements of stormwater management.  By adhering to sound Professional Planning principles, the subdivision is a perfect complement to its neighborhood.</p>
                 </div>
                 <div class="peekaboo" id="hbmud">
                     <strong>Hospitality Based Mixed Use Development</strong>
