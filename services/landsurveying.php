@@ -11,14 +11,19 @@
         <?php include('../includes/menu.php'); ?>
         <article>
             <h1>Land Surveying</h1>
-            <p>Land Surveying Services include:</p>
-            <img src="../images/surveying.jpg" alt="" class="photo-right">
+            <p>The basemap of every land development construction document InSite provides is the survey.  Timely and accurate surveys are therefore critical to the success of each project.  There are many solutions for surveying. The type, size, and budget of the project determine the solution.</p>
+            <p>Surveying services are also required while projects are ongoing, as well as during construction.  InSite is prepared to assist with the following surveying services:</p>
+            <img src="../images/survey.jpg" alt="" class="photo-right">
             <ul>
-                <li>Boundary and topographical surveys</li>
-                <li>Boundary dispute resolution</li>
-                <li>Subdivision maps</li>
-                <li>As-builts</li>
-                <li>Legal descriptions</li>
+                <li>Boundary and Property Surveys</li>
+                <li>Topographic Surveys</li>
+                <li>Flood Elevation Certificates</li>
+                <li>Construction Stakeouts</li>
+                <li>As-Built Surveys</li>
+                <li>Utility Surveys</li>
+                <li>Stream Surveys</li>
+                <li>Wetland Surveys</li>
+                <li>Hydrographic Surveys</li>
             </ul>
         </article>
     </section>

@@ -18,7 +18,7 @@
             <li><a href="/development/insite/services/duediligence.php">Due Diligence</a></li>
             <li><a href="/development/insite/services/permitting.php">Permitting &amp; Expediting</a></li>
             <li><a href="/development/insite/services/landsurveying.php">Land Surveying</a></li>
-            <li><a href="/development/insite/services/environmentalstudies.php">Environmental Studies</a></li>
+            <li><a href="/development/insite/services/environmentalstudies.php">Environmental Engineering</a></li>
             <li><a href="/development/insite/services/geotechnical.php">Geotechnical</a></li>
             <li><a href="/development/insite/services/trafficengineering.php">Traffic Engineering</a></li>
             <li><a href="/development/insite/services/constructionservices.php">Construction Services</a></li>
