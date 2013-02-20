@@ -54,7 +54,7 @@ aside#contact {
     position: absolute;
     right: 0;
     top: 0;
-    width: 380px;
+    width: 620px;
     background: #333333; /* Old browsers */
     background: -moz-linear-gradient(45deg,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(125,126,125,1)), color-stop(100%,rgba(14,14,14,1))); /* Chrome,Safari4+ */
@@ -68,19 +68,19 @@ aside#contact {
 
 aside#contact div {
     padding: 10px;
+    text-align: right;
 }
 
 div#license {
 }
 
 div#address {
-    float: left;
-    font-size: 0.6em;
+    float: right;
 }
 
 div#pfe {
     clear: both;
-    float: left;
+    float: right;
 }
 div#pfe a, div#pfe a:visited {
     color: #ffffff;
@@ -328,7 +328,7 @@ div.peekaboo {
     display: none;
 }
 div#fichter,
-div#avn {
+div#brick {
     display: block;
 }
 #careers {
@@ -398,6 +398,9 @@ footer a:hover {
 @media only screen and (min-width: 753px) and (max-width: 1008px) {  /* Scrollbar makes it 1008 instead of 1023 */
     body {
         width: 720px;
+    }
+    aside#contact {
+        width: 380px;
     }
     article {
         width: 510px;
