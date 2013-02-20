@@ -1,6 +1,7 @@
 @import "reset.scss";
 
 $yellow: #fde400;
+$orange: #f2ab1e;
 $yellow_light: #fef8bf;
 $blackish: #222222;
 $blue_grey: #d8dff2;
@@ -165,7 +166,7 @@ menu li a:visited {
 }
 
 menu li:hover {
-    background-color: rgba(253,228,0,1);
+    background-color: $orange;
 }
 
 menu li:hover a {
@@ -173,7 +174,7 @@ menu li:hover a {
 }
 
 menu li.active {
-    background-color: rgba(253,228,0,1);
+    background-color: $orange;
 }
 
 menu li.active a {
@@ -192,7 +193,7 @@ menu li.active ul {
 }
 
 menu li:hover ul {
-    background-color: rgba(253,228,0,1);
+    background-color: $orange;
     left: 131px;
     position: absolute;
     top: 0;
@@ -376,7 +377,7 @@ div#brick {
     width: 130px;
 }
 .tenyears {
-    color: $yellow;
+    color: $orange;
     font-size: 1.3em;
     font-weight: bold;
 }
