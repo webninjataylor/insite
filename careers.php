@@ -9,7 +9,7 @@
     <?php include('includes/header.php'); ?>
     <section>
         <?php include('includes/menu.php'); ?>
-        <article>
+        <article class="justified">
             <h1>Careers</h1>
             <div id="benefits">
                 <div class="column">
