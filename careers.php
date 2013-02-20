@@ -14,7 +14,7 @@
             <div id="benefits">
                 <div class="column">
                     <h2>Employment Opportunities</h2>
-                    <p>We are always looking for motivated professionals that share our vision to excel in our industry.  We periodically post our most specific needs here; however, if you are seeking an exciting employment opportunity and you don’t see a position below that fits your expertise, we encourage you to contact us – we’d love to meet with you:</p>  
+                    <p>We are always looking for motivated professionals that share our vision to excel in our industry. We periodically post our most specific needs here; however, if you are seeking an exciting employment opportunity and you don’t see a position below that fits your expertise, we encourage you to contact us – we’d love to meet with you:</p>  
                     <ul>
                         <li><a href="#projectmanager" class="career">Project Manager</a></li>
                         <li><a href="#designengineer" class="career">Design Engineer</a></li> 
@@ -24,8 +24,6 @@
                     <ul>
                         <li>Health insurance</li>
                         <li>Dental insurance</li>
-                        <li>Life insurance</li>
-                        <li>Disability insurance</li>
                         <li>Company matching retirement plan</li>
                         <li>Paid time off</li>
                         <li>Paid holidays</li>

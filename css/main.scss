@@ -11,7 +11,8 @@ The iPhone is 320×480, the iPhone 4 is 640×960 and the iPhone 5 is 640×1136
 */
 @import "reset.scss";
 
-$yellow: #FDE400;
+$yellow: #fde400;
+$yellow_light: #fef8bf;
 
 body {
     background: url('../images/watermark4.gif') repeat; /*../OLD/images/watermark.gif*/
@@ -61,6 +62,7 @@ aside#contact {
     background: -o-linear-gradient(45deg,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(45deg,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* IE10+ */
     background: linear-gradient(45deg,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C */
+    border-radius: 0 10px 0 0;;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
@@ -180,6 +182,31 @@ menu li ul li {
 menu li ul li a {
     font-size: .8em;
     padding-left: 20px;
+}
+
+a {
+    font-weight: bold;
+}
+
+.flare1 {
+    color: $yellow;
+    -webkit-text-stroke: 1px black;
+    text-shadow:
+        1px 1px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+.flare2 {
+    color: $yellow_light;
+    -webkit-text-stroke: 1px black;
+    text-shadow:
+        1px 1px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
 }
 
 article {
