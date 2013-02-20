@@ -19,4 +19,5 @@ def deploy():
     sync()
 
     with cd(code_dir):
+        run("git reset --hard")
         run("git pull")
