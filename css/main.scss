@@ -243,6 +243,7 @@ article {
     line-height: 1.5;
     /*min-height: 610px;*/
     padding: 30px;
+    text-align: justify;
     width: 750px;
 }
 
@@ -262,6 +263,10 @@ h1 {
 
 h2 {
     border-bottom: 1px solid #cccccc;
+    font-size: 1em;
+}
+
+h3 {
     font-size: 1em;
 }
 
@@ -292,6 +297,7 @@ h2 {
 .photo-right {
     border: 5px solid #333333;
     box-shadow: 5px 5px 5px 0px #ccc;
+    clear: both;
     float: right;
     margin: 0 0 10px 20px;
     width: 250px;
@@ -429,6 +435,11 @@ footer a:hover {
     }
     aside#contact {
         width: 380px;
+    }
+    #gaudybutton {
+        left: 10px;
+        padding:5px;
+        width: 120px;
     }
     article {
         width: 510px;
