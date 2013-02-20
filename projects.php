@@ -14,17 +14,16 @@
             <div class="column left">
                 <ul>
                     <li><a href="javascript:return false;" data-id="brick" class="peekaboo">Brick Recycling</a></li>
-                    <li><a href="javascript:return false;" data-id="dipiero" class="peekaboo">DiPiero Dock</a></li>
-                    <li><a href="javascript:return false;" data-id="efco" class="peekaboo">EFCO</a></li>
-                    <li><a href="javascript:return false;" data-id="mcbw" class="peekaboo">MCBW</a></li>
+                    <li><a href="javascript:return false;" data-id="dipiero" class="peekaboo">Residential Dock</a></li>
+                    <li><a href="javascript:return false;" data-id="efco" class="peekaboo">EFCO Corp.</a></li>
+                    <li><a href="javascript:return false;" data-id="mcbw" class="peekaboo">Morgan Creek Boat Works</a></li>
                     <li><a href="javascript:return false;" data-id="pb" class="peekaboo">Pep Boys</a></li>
                     <li><a href="javascript:return false;" data-id="rs" class="peekaboo">Residential Subdivision</a></li>
-                    <li><a href="javascript:return false;" data-id="avn" class="peekaboo">AVN</a></li>
-                    <li><a href="javascript:return false;" data-id="avidan" class="peekaboo">Avidan</a></li>
+                    <li><a href="javascript:return false;" data-id="hbmud" class="peekaboo">Hospitality Based Mixed Use Development</a></li>
                     <li><a href="javascript:return false;" data-id="sleven" class="peekaboo">7-Eleven</a></li>
                     <li><a href="javascript:return false;" data-id="homewood" class="peekaboo">Homewood Suites by Hilton</a></li>
                     <li><a href="javascript:return false;" data-id="newmark" class="peekaboo">Newmark Schools</a></li>
-                    <li><a href="javascript:return false;" data-id="popeyes" class="peekaboo">Popeyes</a></li>
+                    <li><a href="javascript:return false;" data-id="popeyes" class="peekaboo">Popeyes Louisiana Kitchen</a></li>
                     <li><a href="javascript:return false;" data-id="applebees" class="peekaboo">Applebees</a></li>
                     <li><a href="javascript:return false;" data-id="rvc" class="peekaboo">Residential V-Zone Construction</a></li>
                     <li><a href="javascript:return false;" data-id="rrcrw" class="peekaboo">Residential Reinforced Concrete Retaining Wall</a></li>
@@ -33,156 +32,112 @@
                     <li><a href="javascript:return false;" data-id="bayhead" class="peekaboo">Bay Head Yacht Club Waterfront Improvements</a></li>
                     <li><a href="javascript:return false;" data-id="rcpic" class="peekaboo">Residential &amp; Commercial Pile Inspection &amp; Certification</a></li>
                     <li><a href="javascript:return false;" data-id="cbrd" class="peekaboo">Commercial Bulkhead Replacement Design</a></li>
-                    <!--
-                        <li><a href="javascript:return false;" data-id="sharkriver" class="peekaboo">Shark River Beach and Yacht Club</a></li>
-                        <li><a href="javascript:return false;" data-id="wall" class="peekaboo">Residential Retaining Wall</a></li>
-                        <li><a href="javascript:return false;" data-id="kmb" class="peekaboo">KMB Group</a></li>
-                        <li><a href="javascript:return false;" data-id="boulder" class="peekaboo">Boulder Beach</a></li>
-                        <li><a href="javascript:return false;" data-id="sleep" class="peekaboo">Sleep Center and Medical Office Building</a></li>
-                        <li><a href="javascript:return false;" data-id="spc" class="peekaboo">Shrewsbury Physician's Center</a></li>
-                    -->
                 </ul>
             </div>
             <div class="column left">
                 <div class="peekaboo" id="brick">
-                    <strong>Brick Recycling</strong><br />
-                    <em>Brick, NJ</em><br />
-                    <img src="images/brick.png" class="photo">
+                    <strong>Brick Recycling</strong>
+                    <img src="images/brick.png" class="photo rp">
+                    <p>This 9-acre site was used as a metal recycling facility for many decades.  The current owners decided to seek approval to substantially expand and streamline the facility.  All existing facilities will be demolished, and the new facility will be constructed, including 76,450 square-feet of new building space.  InSite prepared the site plan and managed all permitting aspects of the project.  The local authority required construction of a 15-feet high sound wall along the perimeter of the 9-acre site, which was surrounded on both sides by extensive buffer plantings.  The project also required freshwater wetland and flood hazard area approvals from the NJDEP.</p>
                 </div>
                 <div class="peekaboo" id="dipiero">
-                    <strong>DiPiero Dock</strong><br />
-                    <img src="images/dipiero.png" class="photo">
+                    <strong>Residential Dock</strong>
+                    <img src="images/dipiero.png" class="photo rp">
+                    <p>InSite assisted a waterfront homeowner in obtaining approvals from the NJDEP and US Army Corps of Engineers to construct a 300-feet extension to an existing residential dock.  The final approved plans served as the construction document for the project.  The purpose of the dock extension was to reach adequate draft for the family’s boat.</p>
                 </div>
                 <div class="peekaboo" id="efco">
-                    <strong>EFCO</strong><br />
-                    <img src="images/efco.png" class="photo">
+                    <strong>EFCO Corp.</strong>
+                    <img src="images/efco.png" class="photo rp">
+                    <p>An international industrial company required an expansion of their existing facility to support their rapid growth.  InSite prepared a site plan for a 50,000 square-feet expansion to double the size of their existing warehouse on the 9-acre property.  Since the property is located along a stream, the project required freshwater wetlands and flood hazard area approvals from the NJDEP.  Compliance with NJDEP regulations was extremely complex.</p>
                 </div>
                 <div class="peekaboo" id="mcbw">
-                    <strong>MCBW</strong><br />
-                    <img src="images/mcbw.png" class="photo">
+                    <strong>MCBW</strong>
+                    <img src="images/mcbw.png" class="photo rp">
+                    <p>InSite designed a 128-boat active dry-storage marina on the 2-acre site.  Extensive NJDEP and US Army Corps of Engineers permitting were required.  Due to a change in elevation of 50-feet across the long, narrow site, a series of substantial retaining walls were required to accomplish our client’s development goals.  A new bulkhead along the waterfront with a negative drop boat well was also included in the design of the marina.  Our design included 11 in-water boat staging slips accessed by a series of fixed, floating, and fingers docks, with a fueling station along the edge of the channel.</p>
                 </div>
                 <div class="peekaboo" id="pb">
-                    <strong>Pep Boys</strong><br />
-                    <em>Blackwood, NJ</em><br />
-                    <img src="images/pb.png" class="photo">
-                    <img src="images/pb.jpg" class="photo">
+                    <strong>Pep Boys</strong>
+                    <img src="images/pb.png" class="photo rp">
+                    <img src="images/pb.jpg" class="photo rp">
+                    <p>InSite designed a site plan for Pep Boys to construct a new facility in southern New Jersey.  The new Service &amp; Tire Center was required to open before the end of the company’s fiscal year, which left a very short timeframe in which to design, obtain approvals, and construct the site.  Working closely with Pep Boys, their professionals, their general contractor, and various municipal officials, the project goals were achieved.</p>
                 </div>
                 <div class="peekaboo" id="rs">
-                    <strong>Residential Subdivision</strong><br />
-                    <em>Wall, NJ</em><br />
-                    <img src="images/rs.png" class="photo">
+                    <strong>Residential Subdivision</strong>
+                    <img src="images/russo.png" class="photo rp">
+                    <p>NEED TEXT</p>
                 </div>
-                <div class="peekaboo" id="avn">
-                    <strong>AVN</strong><br />
-                    <em>Cranbury, NJ</em>
-                    <p>Use variance for hotel, banquet facility, and liquor store</p>
-                </div>
-                <div class="peekaboo" id="avidan">
-                    <strong>Avidan</strong><br />
-                    <em>Bayonne, NJ</em>
-                    <p>Assisted with Eminent Domain settlement for major pipeline easement on 100,000 SF of industrial building to ensure limited impact to client and tenants and to secure highest possible compensation</p>
+                <div class="peekaboo" id="hbmud">
+                    <strong>Hospitality Based Mixed Use Development</strong>
+                    <img src="images/hbmud.png" class="photo rp">
+                    <p>Assisted client from due diligence and layout design through entitlements including a Use Variance and Site Plan approval for a mixed use development centered around hospitality services.  The development includes a 113 room Hyatt hotel, a 16,000 square foot banquet facility and restaurant, and a liquor store.</p>
                 </div>
                 <div class="peekaboo" id="sleven">
-                    <strong>7-Eleven</strong><br />
-                    <em>Elizabeth, NJ</em>
-                    <p>Consulting throughout northeast</p>
+                    <strong>7-Eleven</strong>
+                    <img src="images/sleven.png" class="photo rp">
+                    <p>Provide consulting services to 7 Eleven, Inc. throughout New Jersey, New York and Pennsylvania for concept and layout development and for site plan and entitlements.</p>
                 </div>
                 <div class="peekaboo" id="homewood">
-                    <strong>Homewood Suites by Hilton</strong><br />
-                    <em>Branchburg, NJ</em>
-                    <p>131 room, three story hotel on state highway for the Briad Group</p>
+                    <strong>Homewood Suites by Hilton</strong>
+                    <img src="images/homewood.png" class="photo rp">
+                    <p>InSite Engineering helped secured Site Plan approvals for a 131 room, three story hotel on state highway for The Briad Group.  Scope included rerouting public sanitary and storm sewer to accommodate lot consolidation, water main extension for subject development and adjacent properties, agency permitting through NJDEP-TWA, NJDEP-BSDW, NJDOT, County and local Soil Conservation District.</p>
                 </div>
                 <div class="peekaboo" id="newmark">
-                    <strong>Newmark Schools</strong><br />
-                    <em>Scotch Plains, NJ</em>
-                    <p>60,000 SF of school for special needs children</p>
+                    <strong>Newmark Schools</strong>
+                    <img src="images/newmark.png" class="photo rp">
+                    <p>The Newmark Schools came to InSite Engineering with ideas to build a state of the art facility so their existing High School and Lower School for special needs children could be brought together and centrally located in Scotch Plains, NJ.  InSite assisted with conceptual development, zone amendment and Site Plan approvals to renovate and expand an existing building to a 60,000 square foot school for special needs children.  Wetlands and floodplain proximity as well as shallow groundwater presented challenges that required innovative stormwater design solutions.  The facility is currently under construction and is set to open its doors for the fall semester of 2013.</p>
                 </div>
                 <div class="peekaboo" id="popeyes">
-                    <strong>Popeyes</strong><br />
-                    <em>North Haven, CT</em>
-                    <p>Restaurant with drive thru on state highway and consulting throughout northeast</p>
+                    <strong>Popeyes Louisiana Kitchen</strong>
+                    <img src="images/popeyes.png" class="photo rp">
+                    <p>InSite Engineering has provided site plan design and entitlement support to corporate and franchise developers of Popeye’s Louisiana Kitchen Restaurants throughout New Jersey, Pennsylvania, New York Connecticut and Massachusetts.</p>
                 </div>
                 <div class="peekaboo" id="applebees">
-                    <strong>Applebees</strong><br />
-                    <em>Tinton Falls, NJ</em>
-                    <p>Use variance for outdoor dining and patio bar</p>
+                    <strong>Applebees</strong>
+                    <img src="images/applebees.png" class="photo rp">
+                    <p>InSite has provided site plan design, entitlements and construction support to franchise developers of Applebee’s at various locations throughout New Jersey.</p>
                 </div>
                 <div class="peekaboo" id="rvc">
-                    <strong>Residential V-Zone Construction</strong><br />
-                    <em>Monmouth Beach, NJ</em>
+                    <strong>Residential V-Zone Construction</strong>
+                    <img src="images/rvc1.jpg" class="photo rp">
+                    <img src="images/rvc2.jpg" class="photo rp">
                     <p>Foundation design including timber piles, concrete slab, reinforced concrete masonry piers &amp; foundation-flooring connections; Compliant with FEMA and NJDEP standards</p>
-                    <img src="images/rvc1.jpg" class="photo">
-                    <img src="images/rvc2.jpg" class="photo">
                 </div>
                 <div class="peekaboo" id="rrcrw">
-                    <strong>Residential Reinforced Concrete Retaining Wall</strong><br />
-                    <em>Wall, NJ</em>
+                    <strong>Residential Reinforced Concrete Retaining Wall</strong>
+                    <img src="images/rrcrw1.png" class="photo rp">
+                    <img src="images/rrcrw2.gif" class="photo rp">
                     <p>Value-engineered reinforced concrete wall design for elevated patio and in-ground swimming pool</p>
-                    <img src="images/rrcrw1.png" class="photo">
-                    <img src="images/rrcrw2.gif" class="photo">
                 </div>
                 <div class="peekaboo" id="rrw">
-                    <strong>Residential Retaining Wall</strong><br />
-                    <em>Holmdel, NJ</em>
+                    <strong>Residential Retaining Wall</strong>
+                    <img src="images/rrw1.jpg" class="photo rp">
+                    <img src="images/rrw2.jpg" class="photo rp">
                     <p>Three-tier, segmental block retaining wall design and global stability analysis</p>
-                    <img src="images/rrw1.jpg" class="photo">
-                    <img src="images/rrw2.jpg" class="photo">
                 </div>
                 <div class="peekaboo" id="rhefd">
-                    <strong>Residential House Elevation &amp; Foundation Design</strong><br />
-                    <em>Manasquan, NJ</em>
+                    <strong>Residential House Elevation &amp; Foundation Design</strong>
+                    <img src="images/rhefd.jpg" class="photo rp">
                     <p>Foundation replacement design (reinforced concrete slab, walls &amp; piers) for residential dwelling located in flood zone</p>
-                    <img src="images/rhefd.jpg" class="photo">
                 </div>
                 <div class="peekaboo" id="bayhead">
-                    <strong>Bay Head Yacht Club Waterfront Improvements</strong><br />
-                    <em>Bay Head, NJ</em>
+                    <strong>Bay Head Yacht Club Waterfront Improvements</strong>
+                    <img src="images/bayhead1.jpg" class="photo rp">
+                    <img src="images/bayhead2.jpg" class="photo rp">
+                    <img src="images/bayhead3.jpg" class="photo rp">
                     <p>Developed comprehensive waterfront improvement plan for Club.  Designed replacement fixed timber docks, breakwaters, bulkheads &amp; concrete slab on site</p>
-                    <img src="images/bayhead1.jpg" class="photo">
-                    <img src="images/bayhead2.jpg" class="photo">
                 </div>
                 <div class="peekaboo" id="rcpic">
-                    <strong>Residential &amp; Commercial Pile Inspection &amp; Certification</strong><br />
-                    <em>Various Locations</em>
+                    <strong>Residential &amp; Commercial Pile Inspection &amp; Certification</strong>
+                    <img src="images/rcpic1.jpg" class="photo rp">
+                    <img src="images/rcpic2.jpg" class="photo rp">
                     <p>Timber and helical pile installation inspection and certification using industry-standards formulas and calculations.  Pile certification for various types of structures including residential &amp; commercial buildings, waterfront structures &amp; in-ground swimming pools</p>
-                    <img src="images/rcpic1.jpg" class="photo">
-                    <img src="images/rcpic2.jpg" class="photo">
                 </div>
                 <div class="peekaboo" id="cbrd">
-                    <strong>Commercial Bulkhead Replacement Design</strong><br />
-                    <em>Neptune, NJ</em>
+                    <strong>Commercial Bulkhead Replacement Design</strong>
+                    <img src="images/cbrd1.jpg" class="photo rp">
+                    <img src="images/cbrd2.jpg" class="photo rp">
                     <p>Navy-style vinyl bulkhead design to replace failing timber bulkhead</p>
-                    <img src="images/cbrd1.jpg" class="photo">
-                    <img src="images/cbrd2.jpg" class="photo">
                 </div>
-                <!--
-                    <div class="peekaboo" id="sharkriver">
-                        <strong>Shark River Beach and Yacht Club</strong><br />
-                        <em>Asbury Park, NJ</em>
-                    </div>
-                    <div class="peekaboo" id="wall">
-                        <strong>Residential Retaining Wall</strong><br />
-                        <em>NJ</em>
-                    </div>
-                    <div class="peekaboo" id="kmb">
-                        <strong>KMB Group</strong><br />
-                    </div>
-                    <div class="peekaboo" id="boulder">
-                        <strong>Boulder Beach</strong><br />
-                        <em>Long Branch, NJ</em>
-                        <p>Residential subdivision</p>
-                    </div>
-                    <div class="peekaboo" id="sleep">
-                        <strong>Sleep Center and Medical Office Building</strong><br />
-                        <em>Middletown, NJ</em>
-                        <p>15,000 SF professional state of the art building</p>
-                    </div>
-                    <div class="peekaboo" id="spc">
-                        <strong>Shrewsbury Physician's Center</strong><br />
-                        <em>Shrewsbury, NJ</em>
-                        <p>Solar panels</p>
-                    </div>
-                -->
             </div>
         </article>
     </section>
