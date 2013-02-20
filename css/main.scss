@@ -1,18 +1,10 @@
-/* COLORS
-
-Yellow = #FDE400
-Light Yellow = #fef8bf
-Blackish = #222222
-Blue-grey = #D8DFF2
-Dark-grey = #3333333
-
-The iPhone is 320×480, the iPhone 4 is 640×960 and the iPhone 5 is 640×1136
-
-*/
 @import "reset.scss";
 
 $yellow: #fde400;
 $yellow_light: #fef8bf;
+$blackish: #222222;
+$blue_grey: #d8dff2;
+$dark_grey: #333333;
 
 body {
     background: url('../images/watermark4.gif') repeat; /*../OLD/images/watermark.gif*/
@@ -45,6 +37,43 @@ header img.banner {
     margin-left: 9px;
     width: 120px;
 }
+
+#gaudybutton {
+    background-color: $yellow;
+    border: 1px solid $blackish;
+    border-radius: 10px;
+    box-shadow: inset 0px 1px 0px 0px #f9eca0;
+    color: $blackish;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    left: 30px;
+    padding:6px 24px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #ded17c;
+    top: 25px;
+    z-index: 100;
+
+    -moz-box-shadow:inset 0px 1px 0px 0px #f9eca0;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #f9eca0;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f0c911), color-stop(1, #f2ab1e) );
+    background:-moz-linear-gradient( center top, #f0c911 5%, #f2ab1e 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0c911', endColorstr='#f2ab1e');
+    
+}
+#gaudybutton:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f2ab1e), color-stop(1, #f0c911) );
+    background:-moz-linear-gradient( center top, #f2ab1e 5%, #f0c911 100% );
+    background-color:#f2ab1e;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2ab1e', endColorstr='#f0c911');
+}
+
+
+
+
 
 aside#contact {
     color: #ffffff;

@@ -1,7 +1,5 @@
 <header>
     <a href="/development/insite/index.php"><img src="/development/insite/images/logo-300c.gif" id="logo" alt="InSite Engineering: Engineering, Surveying, and Planning"></a>
-    <!-- Other images? -->
-    <!--<img src="images/header1.jpg" class="banner" alt="">
-    <img src="images/header2.jpg" class="banner" alt="">-->
+    <a href="services/disasterrecovery.php"><div id="gaudybutton">SUPERSTORM SANDY <br /> Disaster Recovery &amp; Damage Prevention</div></a>
     <?php include('contact.php'); ?>
 </header>
