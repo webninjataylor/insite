@@ -1,0 +1,32 @@
+<footer>
+    <p class="tenyears">
+        2013 celebrates InSite's 10 YEAR ANNIVERSARY!<br />
+        Thank you to our clients, consultants, associates, and staff for making our first 10 years a tremendous success.
+    </p>
+    <div id="license">Licensed in
+
+        CO,
+        CT,
+        DC,
+        DE,
+        MA,
+        MD,
+        NC,
+        NJ,
+        NY,
+        PA
+
+    </div>
+
+    <a href="http://www.linkedin.com/company/2952246?trk=tyah" class="social-media li" target="_blank"></a>
+
+    <a href="/development/insite/about.shtml">About</a> &#160;&#160;|&#160;&#160;
+    <a href="/development/insite/services.shtml">Services</a> &#160;&#160;|&#160;&#160;
+    <a href="/development/insite/projects.shtml">Representative Projects</a> &#160;&#160;|&#160;&#160;
+    <a href="/development/insite/milestones.shtml">Milestones</a> &#160;&#160;|&#160;&#160;
+    <a href="/development/insite/careers.shtml">Careers</a> &#160;&#160;|&#160;&#160;
+    <!-- <a href="/development/insite/clientaccess.shtml">Client Access</a> &#160;&#160;|&#160;&#160; -->
+    <a href="/development/insite/contactus.shtml">Contact Us</a><br />
+    Copyright &copy; 2013 InSite Engineering, LLC. All rights reserved. • <a href="https://www.elance.com/s/webninjataylor/" class="wnt">Website by Web Ninja Taylor</a>
+</footer>
+<script type="text/javascript" src="/development/insite/js/main.min.js?cachebust2"></script>

@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>InSite: Client Access</title>
+    <!--#include virtual="includes/meta.shtml"-->
+</head>
+<body ontouchmove="BlockMove(event);">
+    <!--#include virtual="includes/header.shtml"-->
+    <section>
+        <!--#include virtual="includes/menu.shtml"-->
+        <article>
+            <h1>Client Access</h1>
+            <div style="text-align:center;">
+                <img src="images/underconstruction.png" alt="" class="photo-right" style="float:none;">
+            </div>
+        </article>
+    </section>
+    <!--#include virtual="includes/footer.shtml"-->
+</body>
+</html>

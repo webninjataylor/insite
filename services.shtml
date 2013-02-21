@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>InSite</title>
+    <!--#include virtual="includes/meta.shtml"-->
+</head>
+<body ontouchmove="BlockMove(event);">
+    <!--#include virtual="includes/header.shtml"-->
+    <section>
+        <!--#include virtual="includes/menu.shtml"-->
+        <article>
+            <h1>Services</h1>
+            <p>InSite is comprised of a team of licensed, dedicated, and talented professionals.  Whatever your land development goals are, our team’s diverse backgrounds enable us to provide a full range of services to work with you from concept through construction.  The list to the right provides a general overview of our services.</p>
+            <img src="images/services_home.png" class="photo">
+        </article>
+    </section>
+    <!--#include virtual="includes/footer.shtml"-->
+</body>
+</html>

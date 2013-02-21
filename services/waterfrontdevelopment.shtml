@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>InSite: Waterfront Development</title>
+    <!--#include virtual="../includes/meta.shtml"-->
+</head>
+<body ontouchmove="BlockMove(event);">
+    <!--#include virtual="../includes/header.shtml"-->
+    <section>
+        <!--#include virtual="../includes/menu.shtml"-->
+        <article>
+            <h1>Waterfront Development</h1>
+            <p>Services include:</p>
+            <img src="../images/home2.jpg" class="photo-right">
+            <ul>
+                <li>Bulkheads</li>
+                <li>Docks – Fixed &amp; Floating</li>
+                <li>Boat Wells</li>
+                <li>Boat Lifts</li>
+                <li>Ramps</li>
+                <li>Gangways</li>
+                <li>Residential &amp; Commercial Flood Zone Design and Construction</li>
+                <li>Foundation Piles – Helical &amp; Timber</li>
+                <li>Shore Protection Structures</li>
+                <li>Construction Inspection</li>
+            </ul>
+        </article>
+    </section>
+    <!--#include virtual="../includes/footer.shtml"-->
+</body>
+</html>

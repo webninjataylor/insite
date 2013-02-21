@@ -1,0 +1,34 @@
+<menu>
+    <li><a href="/development/insite/about.shtml">About</a>
+        <ul>
+            <li><a href="/development/insite/about/keyprofessionals.shtml">Key Professionals</a></li>
+            <li><a href="/development/insite/about/professionallicensure.shtml">Professional Licensure</a></li>
+            <li><a href="/development/insite/about/affiliations.shtml">Affiliations</a></li>
+            <li><a href="/development/insite/about/clientlist.shtml">Client List</a></li>
+        </ul>
+    </li>
+    <li><a href="/development/insite/services.shtml">Services</a>
+        <ul>
+            <li><a href="/development/insite/services/civilengineering.shtml">Civil Engineering</a></li>
+            <li><a href="/development/insite/services/structuralengineering.shtml">Structural Engineering</a></li>
+            <li><a href="/development/insite/services/waterfrontdevelopment.shtml">Waterfront Development</a></li>
+            <li><a href="/development/insite/services/disasterrecovery.shtml">Disaster Recovery &amp; Damage Prevention</a></li>
+            <li><a href="/development/insite/services/professionalplanning.shtml">Professional Planning</a></li>
+            <li><a href="/development/insite/services/landscapedesign.shtml">Landscape Design</a></li>
+            <li><a href="/development/insite/services/duediligence.shtml">Due Diligence</a></li>
+            <li><a href="/development/insite/services/permitting.shtml">Permitting &amp; Expediting</a></li>
+            <li><a href="/development/insite/services/landsurveying.shtml">Land Surveying</a></li>
+            <li><a href="/development/insite/services/environmentalstudies.shtml">Environmental Engineering</a></li>
+            <li><a href="/development/insite/services/geotechnical.shtml">Geotechnical</a></li>
+            <li><a href="/development/insite/services/trafficengineering.shtml">Traffic Engineering</a></li>
+            <li><a href="/development/insite/services/constructionadministration.shtml">Construction Administration</a></li>
+            <li><a href="/development/insite/services/experttestimony.shtml">Expert Testimony</a></li>
+        </ul>
+    </li>
+    <li><a href="/development/insite/projects.shtml">Representative Projects</a></li>
+    <li><a href="/development/insite/milestones.shtml">Milestones</a></li>
+    <li><a href="/development/insite/careers.shtml">Careers</a></li>
+    <!-- <li><a href="/development/insite/clientaccess.shtml">Client Access</a></li> -->
+    <li><a href="/development/insite/contactus.shtml">Contact Us</a></li>
+    <!-- <img src="/development/insite/images/logos/badge-10years3.png" id="tenyearslogo"> -->
+</menu>
