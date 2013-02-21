@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>InSite: Affiliations</title>
-    <!--#include virtual="../includes/meta.shtml"-->
+    <!--#include virtual="/development/insite/includes/meta.shtml"-->
 </head>
 <body ontouchmove="BlockMove(event);">
-    <!--#include virtual="../includes/header.shtml"-->
+    <!--#include virtual="/development/insite/includes/header.shtml"-->
     <section>
-        <!--#include virtual="../includes/menu.shtml"-->
+        <!--#include virtual="/development/insite/includes/menu.shtml"-->
         <article id="affiliations">
             <h1>Affiliations</h1>
             <a href="http://www.asce.org/" target="_blank"><img src="../images/logos/asce.gif" alt="ASCE"></a>
@@ -22,6 +22,6 @@
             <a href="http://www.nfib.com/" target="_blank"><img src="../images/logos/nfib.jpg" alt="NFIB" style="margin-top:8px;"></a>
         </article>
     </section>
-    <!--#include virtual="../includes/footer.shtml"-->
+    <!--#include virtual="/development/insite/includes/footer.shtml"-->
 </body>
 </html>

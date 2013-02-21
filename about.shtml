@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>InSite: About</title>
-    <!--#include virtual="includes/meta.shtml"-->
+    <!--#include virtual="/development/insite/includes/meta.shtml"-->
 </head>
 <body ontouchmove="BlockMove(event);">
-    <!--#include virtual="includes/header.shtml"-->
+    <!--#include virtual="/development/insite/includes/header.shtml"-->
     <section>
-        <!--#include virtual="includes/menu.shtml"-->
+        <!--#include virtual="/development/insite/includes/menu.shtml"-->
         <article class="justified">
             <h1>About</h1>
             <p>InSite Engineering, LLC is a highly energetic and motivated full service civil engineering and consulting firm which was established to provide our clients with technical expertise, an intimate knowledge of today’s land development regulations, and an unrivaled personal level of service.</p>
@@ -17,6 +17,6 @@
             <img src="images/about.png" class="photo">
         </article>
     </section>
-    <!--#include virtual="includes/footer.shtml"-->
+    <!--#include virtual="/development/insite/includes/footer.shtml"-->
 </body>
 </html>

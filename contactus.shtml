@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>InSite</title>
-    <!--#include virtual="includes/meta.shtml"-->
+    <!--#include virtual="/development/insite/includes/meta.shtml"-->
 </head>
 <body ontouchmove="BlockMove(event);">
-    <!--#include virtual="includes/header.shtml"-->
+    <!--#include virtual="/development/insite/includes/header.shtml"-->
     <section>
-        <!--#include virtual="includes/menu.shtml"-->
+        <!--#include virtual="/development/insite/includes/menu.shtml"-->
         <article>
             <h1>Contact Us</h1>
             <div class="column">
@@ -32,6 +32,6 @@
             </div>
         </article>
     </section>
-    <!--#include virtual="includes/footer.shtml"-->
+    <!--#include virtual="/development/insite/includes/footer.shtml"-->
 </body>
 </html>

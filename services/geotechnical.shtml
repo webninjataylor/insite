@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>InSite: Geotechnical</title>
-    <!--#include virtual="../includes/meta.shtml"-->
+    <!--#include virtual="/development/insite/includes/meta.shtml"-->
 </head>
 <body ontouchmove="BlockMove(event);">
-    <!--#include virtual="../includes/header.shtml"-->
+    <!--#include virtual="/development/insite/includes/header.shtml"-->
     <section>
-        <!--#include virtual="../includes/menu.shtml"-->
+        <!--#include virtual="/development/insite/includes/menu.shtml"-->
         <article>
             <h1>Geotechnical</h1>
             <p>Geotechnical Engineering is the civil engineering discipline dedicated to the study of soil and the gasses and liquids that fill its voids.  The information provided by a Geotechnical Engineering study is valuable information for the design many types of projects.  InSite is prepared to assist with the following Geotechnical Engineering studies:</p>
@@ -27,6 +27,6 @@
             </ul>
         </article>
     </section>
-    <!--#include virtual="../includes/footer.shtml"-->
+    <!--#include virtual="/development/insite/includes/footer.shtml"-->
 </body>
 </html>

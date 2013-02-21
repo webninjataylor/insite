@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>InSite: Traffic Engineering</title>
-    <!--#include virtual="../includes/meta.shtml"-->
+    <!--#include virtual="/development/insite/includes/meta.shtml"-->
 </head>
 <body ontouchmove="BlockMove(event);">
-    <!--#include virtual="../includes/header.shtml"-->
+    <!--#include virtual="/development/insite/includes/header.shtml"-->
     <section>
-        <!--#include virtual="../includes/menu.shtml"-->
+        <!--#include virtual="/development/insite/includes/menu.shtml"-->
         <article>
             <h1>Traffic Engineering</h1>
             <p>Vehicular ingress, egress, and interior circulation are fundamental considerations in land development designs.  Furthermore, “traffic” is often the first component of land development projects raised by the public and jurisdictional agencies.  InSite begins each project with a review of existing traffic patterns, access permitting thresholds, design vehicles, and project goals in order to provide the most efficient site design.  These factors are maintained throughout the life of each project to maximize its approvability and opportunity for financial success.  InSite is prepared to assist with the following Traffic Engineering services:</p>
@@ -29,6 +29,6 @@
             </ul>
         </article>
     </section>
-    <!--#include virtual="../includes/footer.shtml"-->
+    <!--#include virtual="/development/insite/includes/footer.shtml"-->
 </body>
 </html>

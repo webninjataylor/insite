@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>InSite: Professional Planning</title>
-    <!--#include virtual="../includes/meta.shtml"-->
+    <!--#include virtual="/development/insite/includes/meta.shtml"-->
 </head>
 <body ontouchmove="BlockMove(event);">
-    <!--#include virtual="../includes/header.shtml"-->
+    <!--#include virtual="/development/insite/includes/header.shtml"-->
     <section>
-        <!--#include virtual="../includes/menu.shtml"-->
+        <!--#include virtual="/development/insite/includes/menu.shtml"-->
         <article>
             <h1>Professional Planning</h1>
             <p>Professional Planners play an essential role in our land development design team.  Each development must be a compliment to its neighborhood and utilize or improve existing infrastructure.  Consistency with the municipality’s Master Plan and Zoning Ordinance as well as the State Plan must be considered.  With proper Planning, land development design projects typically experience not only faster approvals and more public support, but also greater financial success once constructed.  Our licensed Professional Planners provide the following services:</p>
@@ -22,6 +22,6 @@
             </ul>
         </article>
     </section>
-    <!--#include virtual="../includes/footer.shtml"-->
+    <!--#include virtual="/development/insite/includes/footer.shtml"-->
 </body>
 </html>

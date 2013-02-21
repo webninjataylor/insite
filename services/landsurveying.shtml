@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>InSite: Land Surveying</title>
-    <!--#include virtual="../includes/meta.shtml"-->
+    <!--#include virtual="/development/insite/includes/meta.shtml"-->
 </head>
 <body ontouchmove="BlockMove(event);">
-    <!--#include virtual="../includes/header.shtml"-->
+    <!--#include virtual="/development/insite/includes/header.shtml"-->
     <section>
-        <!--#include virtual="../includes/menu.shtml"-->
+        <!--#include virtual="/development/insite/includes/menu.shtml"-->
         <article>
             <h1>Land Surveying</h1>
             <p>The basemap of every land development construction document InSite provides is the survey.  Timely and accurate surveys are therefore critical to the success of each project.  There are many solutions for surveying. The type, size, and budget of the project determine the solution.</p>
@@ -27,6 +27,6 @@
             </ul>
         </article>
     </section>
-    <!--#include virtual="../includes/footer.shtml"-->
+    <!--#include virtual="/development/insite/includes/footer.shtml"-->
 </body>
 </html>

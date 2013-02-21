@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>InSite</title>
-    <!--#include virtual="includes/meta.shtml"-->
+    <!--#include virtual="/development/insite/includes/meta.shtml"-->
 </head>
 <body ontouchmove="BlockMove(event);">
-    <!--#include virtual="includes/header.shtml"-->
+    <!--#include virtual="/development/insite/includes/header.shtml"-->
     <section>
-        <!--#include virtual="includes/menu.shtml"-->
+        <!--#include virtual="/development/insite/includes/menu.shtml"-->
         <article class="justified">
             <h1>Engineering insight for site solutions.</h1>
             <p>InSite Engineering, LLC is a comprehensive land development design solution for corporate, private, and government clients in the residential, commercial, industrial, and institutional markets, licensed throughout the northeast and located at the Jersey Shore.</p>
@@ -18,6 +18,6 @@
             <p></p>
         </article>
     </section>
-    <!--#include virtual="includes/footer.shtml"-->
+    <!--#include virtual="/development/insite/includes/footer.shtml"-->
 </body>
 </html>

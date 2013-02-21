@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>InSite: Construction Administration</title>
-    <!--#include virtual="../includes/meta.shtml"-->
+    <!--#include virtual="/development/insite/includes/meta.shtml"-->
 </head>
 <body ontouchmove="BlockMove(event);">
-    <!--#include virtual="../includes/header.shtml"-->
+    <!--#include virtual="/development/insite/includes/header.shtml"-->
     <section>
-        <!--#include virtual="../includes/menu.shtml"-->
+        <!--#include virtual="/development/insite/includes/menu.shtml"-->
         <article>
             <h1>Construction Administration</h1>
             <p>InSite takes great pride in working with our clients for the life of each land development project.  Our work does not end when we hand-off all of the project approvals.  We provide Construction Administration services to assist our clients in bringing their development goals to life, while achieving financial success and creating a wonderful new contribution to the site and its community.  InSite is prepared to assist with the following Construction Administration services:</p>
@@ -31,6 +31,6 @@
             </ul>
         </article>
     </section>
-    <!--#include virtual="../includes/footer.shtml"-->
+    <!--#include virtual="/development/insite/includes/footer.shtml"-->
 </body>
 </html>

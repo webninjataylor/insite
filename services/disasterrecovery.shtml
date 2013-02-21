@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>InSite: Disaster Recovery &amp; Damage Prevention</title>
-    <!--#include virtual="../includes/meta.shtml"-->
+    <!--#include virtual="/development/insite/includes/meta.shtml"-->
 </head>
 <body ontouchmove="BlockMove(event);">
-    <!--#include virtual="../includes/header.shtml"-->
+    <!--#include virtual="/development/insite/includes/header.shtml"-->
     <section>
-        <!--#include virtual="../includes/menu.shtml"-->
+        <!--#include virtual="/development/insite/includes/menu.shtml"-->
         <article>
             <h1>Disaster Recovery &amp; Damage Prevention</h1>
             <p>Civil Engineering plays a vital role in every land development project.  It is the professional discipline responsible for the safety, health, and general welfare of the public and the environment.  Occupied structures must be adequately protected from flooding, bridges must be reliable, water and sewer systems are of paramount importance, foundation systems must be reliable…and the list goes on.  InSite gives very careful consideration to safety when preparing our design plans.</p>
@@ -42,6 +42,6 @@
             </ul>
         </article>
     </section>
-    <!--#include virtual="../includes/footer.shtml"-->
+    <!--#include virtual="/development/insite/includes/footer.shtml"-->
 </body>
 </html>
