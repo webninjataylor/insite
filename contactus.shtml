@@ -12,13 +12,12 @@
         <article>
             <h1>Contact Us</h1>
             <div class="column">
-                <p>We always welcome visitors to our office!  Whether you would like to discuss the status of your project, or to begin strategizing for your next project, our doors are always open to you.  Of course, you can always reach us by email, phone, fax, or mail.</p>
+                <p>We always welcome visitors to our office!  Whether you would like to discuss the status of your project or to begin strategizing for your next project, our doors are always open to you.  Of course, you can always reach us by email, phone, fax, or mail.</p>
                 <blockquote>
                     <p>
                         <strong>InSite Engineering, LLC</strong><br />
                         Rivers Edge Professional Building<br />
-                        2052 State Highway 35<br />
-                        Suite 203<br />
+                        2052 State Highway 35, Suite 203<br />
                         Wall, NJ 07719</p>
                     <p>
                         Phone: (732) 531-7100<br />
@@ -52,7 +51,7 @@
                 '</div>'+
                 '<h2 id="firstHeading" class="firstHeading">InSite Engineering, LLC</h2>'+
                 '<div id="bodyContent">'+
-                '<p>Rivers Edge Professional Building<br />2052 State Highway 35<br />Suite 203<br />Wall, NJ 07719</p>'+
+                '<p>Rivers Edge Professional Building<br />2052 State Highway 35, Suite 203<br />Wall, NJ 07719</p>'+
                 '<p><a href="https://maps.google.com/maps?q=InSite+Engineering,+LLC+Riverside+Professional+Building&cid=7674881452799525246&ie=UTF8&t=m&z=16&vpsrc=0&iwloc=A&f=d&daddr=InSite+Engineering,+LLC,+River\s+Edge+Professional+Building,+2052+Highway+35,+Suite+203,+Wall+Township,+NJ+07719&geocode=%3BCY34XSpyK9sBFSmUZAIdmPWV-ynlKBG8vofBiTF-gVmfBKiCag" target="_blank">Get Directions</a></p>'+
                 '</div>'+
                 '</div>';
