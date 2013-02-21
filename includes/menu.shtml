@@ -4,7 +4,7 @@
             <li><a href="/development/insite/about/keyprofessionals.shtml">Key Professionals</a></li>
             <li><a href="/development/insite/about/professionallicensure.shtml">Professional Licensure</a></li>
             <li><a href="/development/insite/about/affiliations.shtml">Affiliations</a></li>
-            <li><a href="/development/insite/about/clientlist.shtml">Client List</a></li>
+            <!--<li><a href="/development/insite/about/clientlist.shtml">Client List</a></li>-->
         </ul>
     </li>
     <li><a href="/development/insite/services.shtml">Services</a>
