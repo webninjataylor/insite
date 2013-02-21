@@ -28,10 +28,51 @@
                 </blockquote>
             </div>
             <div class="column">
-                <iframe width="350" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=InSite+Engineering,+LLC+Riverside+Professional+Building&amp;cid=7674881452799525246&amp;ie=UTF8&amp;ll=40.145961,-74.058344&amp;spn=0.006295,0.006295&amp;t=m&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=InSite+Engineering,+LLC+Riverside+Professional+Building&amp;cid=7674881452799525246&amp;ie=UTF8&amp;ll=40.145961,-74.058344&amp;spn=0.006295,0.006295&amp;t=m&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+                <div id="map_canvas"></div>
             </div>
         </article>
     </section>
     <!--#include virtual="/development/insite/includes/footer.shtml"-->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&.js"></script>
+    <script type="text/javascript">
+        function initialize() {
+            var myLatlng = new google.maps.LatLng(40.145961,-74.058344);
+            var centerhere = new google.maps.LatLng(40.146292, -74.058205);
+            var mapOptions = {
+              zoom: 16,
+              center: centerhere,
+              mapTypeControl: false,
+              mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+
+            var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+
+            var contentString = '<div id="content">'+
+                '<div id="siteNotice">'+
+                '</div>'+
+                '<h2 id="firstHeading" class="firstHeading">InSite Engineering, LLC</h2>'+
+                '<div id="bodyContent">'+
+                '<p>Rivers Edge Professional Building<br />2052 State Highway 35<br />Suite 203<br />Wall, NJ 07719</p>'+
+                '<p><a href="https://maps.google.com/maps?q=InSite+Engineering,+LLC+Riverside+Professional+Building&cid=7674881452799525246&ie=UTF8&t=m&z=16&vpsrc=0&iwloc=A&f=d&daddr=InSite+Engineering,+LLC,+River\s+Edge+Professional+Building,+2052+Highway+35,+Suite+203,+Wall+Township,+NJ+07719&geocode=%3BCY34XSpyK9sBFSmUZAIdmPWV-ynlKBG8vofBiTF-gVmfBKiCag" target="_blank">Get Directions</a></p>'+
+                '</div>'+
+                '</div>';
+
+            var infowindow = new google.maps.InfoWindow({
+                content: contentString
+            });
+
+            var marker = new google.maps.Marker({
+                position: myLatlng,
+                map: map,
+                title:"InSiteEngineering, LLC"
+            });
+
+            google.maps.event.addListener(marker, 'click', function() {
+              infowindow.open(map,marker);
+            });
+            infowindow.open(map,marker);
+        }
+        initialize();
+    </script>
 </body>
 </html>
