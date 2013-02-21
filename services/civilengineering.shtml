@@ -11,25 +11,25 @@
         <!--#include virtual="/development/insite/includes/menu.shtml"-->
         <article>
             <h1>Civil Engineering</h1>
-            <p>The core of InSite’s business is Civil Engineering, the most broad of all engineering disciplines.  We apply our expertise to every project to provide a common sense, value engineered design.  The following is a list of our services:</p> 
+            <p>The core of InSite’s business is civil engineering, the most broad of all engineering disciplines.  We apply our expertise to every project to provide a common sense, value-engineered design.  The following is a list of our services:</p> 
             <img src="../images/ce1.jpg" class="photo-right">
             <img src="../images/ce2.jpg" class="photo-right">
             <ul>
-                <li>Site Layout Designs</li>
-                <li>Subdivision Plans</li>
-                <li>Stormwater Management Analyses, Designs, And Reports</li>
-                <li>Bioretention, Detention And Retention System Designs</li>
-                <li>Flood Hazard Area Analyses</li>
-                <li>Stream Studies</li>
-                <li>Site Grading and Earthwork Analyses</li>
-                <li>Sanitary Sewer &amp; Onsite Wastewater (Septic System) Design</li>
-                <li>Alternative/Advanced Onsite Wastewater System Designs</li>
-                <li>Potable Water System Designs</li>
-                <li>Roadway Layout Designs</li>
-                <li>Site Lighting Designs</li>
-                <li>Demolition Plans</li>
-                <li>Soil Erosion &amp; Sediment Control Design Compliance</li>
-                <li>Peer Review</li>
+                <li>Site layout designs</li>
+                <li>Subdivision plans</li>
+                <li>Stormwater management analyses, designs, and reports</li>
+                <li>Bioretention, detention and retention system designs</li>
+                <li>FHA analyses</li>
+                <li>Stream studies</li>
+                <li>Site grading and earthwork analyses</li>
+                <li>Sanitary sewer and onsite wastewater (septic system) design</li>
+                <li>Alternative/advanced onsite wastewater system designs</li>
+                <li>Potable water system designs</li>
+                <li>Roadway layout designs</li>
+                <li>Site lighting designs</li>
+                <li>Demolition plans</li>
+                <li>Soil erosion and sediment control design compliance</li>
+                <li>Peer review</li>
             </ul>
         </article>
     </section>
