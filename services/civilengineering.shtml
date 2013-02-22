@@ -11,8 +11,8 @@
         <!--#include virtual="/development/insite/includes/menu.shtml"-->
         <article>
             <h1>Civil Engineering</h1>
+            <p>The core of InSite’s business is civil engineering, the most broad of all engineering disciplines.  We apply our expertise to every project to provide a common sense, value-engineered design.  The following is a list of our services:</p>
             <div class="column">
-                <p>The core of InSite’s business is civil engineering, the most broad of all engineering disciplines.  We apply our expertise to every project to provide a common sense, value-engineered design.  The following is a list of our services:</p>
                 <ul>
                     <li>Site layout designs</li>
                     <li>Subdivision plans</li>

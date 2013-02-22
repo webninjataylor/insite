@@ -12,24 +12,27 @@
         <article>
             <h1>Geotechnical</h1>
             <p>Geotechnical engineering is the civil engineering discipline dedicated to the study of soil and the gasses and liquids that fill its voids.  The information provided by a geotechnical engineering study is valuable information for the design of many types of projects.  InSite is prepared to assist with the following geotechnical engineering studies:</p>
-            <img src="../images/geo.jpg" class="photo-right">
-            <ul>
-                <li>Foundation Investigations for:
-                    <ul>
-                        <li>Deep foundations systems (i.e., pile designs, both timber and helical)
-                        <li>Shallow foundations systems
-                    </ul>
-                </li>
-                <li>Soil analyses for:
-                    <ul>
-                        <li>Earth retaining structures (e.g., bulkheads and retaining walls)</li>
-                        <li>Stormwater management systems</li>
-                        <li>Onsite wastewater systems (i.e., septic systems)</li>
-                    </ul>
-                </li>
-                
-                <li>Groundwater observations</li>
-            </ul>
+            <div class="column">
+                <ul>
+                    <li>Foundation Investigations for:
+                        <ul>
+                            <li>Deep foundations systems (i.e., pile designs, both timber and helical)
+                            <li>Shallow foundations systems
+                        </ul>
+                    </li>
+                    <li>Soil analyses for:
+                        <ul>
+                            <li>Earth retaining structures (e.g., bulkheads and retaining walls)</li>
+                            <li>Stormwater management systems</li>
+                            <li>Onsite wastewater systems (i.e., septic systems)</li>
+                        </ul>
+                    </li>
+                    <li>Groundwater observations</li>
+                </ul>
+            </div>
+            <div class="column">
+                <img src="../images/geo.jpg" class="photo rp">
+            </div>
         </article>
     </section>
     <!--#include virtual="/development/insite/includes/footer.shtml"-->

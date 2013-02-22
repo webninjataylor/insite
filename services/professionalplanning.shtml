@@ -11,15 +11,19 @@
         <!--#include virtual="/development/insite/includes/menu.shtml"-->
         <article>
             <h1>Professional Planning</h1>
-            <p>Professional planners play an essential role in our land development design team.  Each development must be a complement to its neighborhood and utilize or improve existing infrastructure.  Consistency with the municipality’s master plan and zoning ordinance as well as the state plan must be considered.  With proper planning, land development design projects typically experience not only faster approvals and more public support, but also greater financial success once constructed.  Our licensed professional planners provide:</p>
-            <img src="../images/pp.png" alt="" class="photo-right">
-            <ul>
-                <li>Due Diligence Studies</li>
-                <li>Site Planning</li>
-                <li>Zoning Analyses</li>
-                <li>Expert Testimony</li>
-                <li>Peer Review</li>
-            </ul>
+            <div class="column">
+                <p>Professional planners play an essential role in our land development design team.  Each development must be a complement to its neighborhood and utilize or improve existing infrastructure.  Consistency with the municipality’s master plan and zoning ordinance as well as the state plan must be considered.  With proper planning, land development design projects typically experience not only faster approvals and more public support, but also greater financial success once constructed.  Our licensed professional planners provide:</p>
+                <ul>
+                    <li>Due Diligence Studies</li>
+                    <li>Site Planning</li>
+                    <li>Zoning Analyses</li>
+                    <li>Expert Testimony</li>
+                    <li>Peer Review</li>
+                </ul>
+            </div>
+            <div class="column">
+                <img src="../images/pp.png" alt="" class="photo">
+            </div>
         </article>
     </section>
     <!--#include virtual="/development/insite/includes/footer.shtml"-->
