@@ -316,9 +316,13 @@ h3 {
 }
 
 article ul {
-    margin-left: 40px;
+    margin-left: 30px;
 }
-
+article ul li {
+    background: url('../images/bullet2.gif') no-repeat 0 3px;
+    list-style-type: none;
+    padding-left: 20px;
+}
 .mugshot {
     background-color: #ff0000;
     border: 1px solid #000000;
