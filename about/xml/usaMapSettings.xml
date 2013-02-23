@@ -6,9 +6,9 @@
 mapWidth = "750"
 mapHeight = "476"
 
-offColor = "222222"
+offColor = "ffffff"
 strokeColor = "24221f"
-abbreviationColor = "f2f2f2"
+abbreviationColor = "24221f"
 
 useSideText = "false"
 textAreaWidth = "300"
