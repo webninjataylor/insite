@@ -13,26 +13,35 @@ $(function () {
     abbrColor,
     mapWidth,
     mapHeight,
+	oMapWidth,
+	oMapHeight,
     useSideText,
     textAreaWidth,
-    textAreaPadding;
+    textAreaPadding,
+	win,
+	winWidth,
+	r,
+	ratio,
+	isMobile;
 
     var mouseX = 0;
     var mouseY = 0;
     var current = null;
+	var btnNumCol = 5;
 
-    // Detect if the browser supports ajax.
-    var hasAjax = jQuery.support.ajax;
+    // Detect if the browser is IE.
+    var IE = $.browser.msie ? true : false;
+	isMobile = (Jacked.getMobile() == null) ? false: true;
 
     $.ajax({
         type: 'GET',
-        url: wnt.mapsettings,
-        dataType: hasAjax ? 'xml' : 'text',
+        url: 'xml/usaMapSettings.xml',
+        dataType: $.browser.msie ? 'text' : 'xml',
         success: function (data) {
 
 
             var xml;
-            if (!hasAjax) {
+            if ($.browser.msie) {
                 xml = new ActiveXObject('Microsoft.XMLDOM');
                 xml.async = false;
                 xml.loadXML(data);
@@ -50,7 +59,10 @@ $(function () {
             useSideText = $xml.find('mapSettings').attr('useSideText');
             textAreaWidth = $xml.find('mapSettings').attr('textAreaWidth');
             textAreaPadding = $xml.find('mapSettings').attr('textAreaPadding');
-
+			
+			ratio = mapWidth/mapHeight;
+			oMapWidth = mapWidth;
+			
 
             if (useSideText == 'true') {
                 $("#text").css({
@@ -63,6 +75,9 @@ $(function () {
 
                 $('#text').html($xml.find('defaultSideText').text());
             }
+			else{
+			   $("#text").remove();	
+			}
 
 
             //Parse xml
@@ -79,17 +94,73 @@ $(function () {
                 stateClickedColors.push('#' + $node.attr('stateSelectedColor'));
 
             });
-
-            createMap();
+			
+			win = $(window);
+			winWidth = win.width();
+			if(winWidth>=768){
+				isMobile = false;
+			}
+			
+            
+			if(!isMobile){
+               createMap();
+			}
+			else{
+				$("#map").remove();	
+			   createButtons();
+			}
 
         }
     });
+	
+	function createButtons(){
+		
+		var numStates = stateText.length;
+		var numInCol = Math.floor(numStates/btnNumCol);
+		var numExtra = numStates-numInCol*btnNumCol;
+		var curState = 0;
+		
+		for(var j=0;j<btnNumCol;j++){
+			
+			
+			
+			var list = $('<ul />').addClass('btnList').appendTo($('.mapWrapper'));
+			
+			if(j < btnNumCol-1){
+				for(var i=0;i<numInCol;i++){
+				
+					var lItem = $('<li />').addClass('stateButton').html(stateNames[curState]).appendTo(list);
+					lItem.attr('id', i);
+					
+					lItem.click(function (e) {
+                        window.open(stateURLs[$(this).attr('id')], '_self');
+                   });
+					
+					curState++;
+				}
+			}
+			else{
+				
+				for(var i=0;i<numInCol+numExtra;i++){
+				
+					var lItem = $('<li />').addClass('stateButton').html(stateNames[curState]).appendTo(list)
+					
+					curState++;
+				}
+			}
+			
+		}
+		
+		responsiveResize();
+		
+		
+	}
 
 
     function createMap() {
 
         //start map
-        var r = new ScaleRaphael('map', 930, 590),
+        r = new ScaleRaphael('map', 930, 590),
             attributes = {
                 fill: '#d9d9d9',
                 cursor: 'pointer',
@@ -101,6 +172,8 @@ $(function () {
                     'font-weight': 'bold'
             },
             arr = new Array();
+			
+			
 
 
         var usa = {};
@@ -289,7 +362,10 @@ $(function () {
             i++;
         }
 
-        resizeMap(r);
+        //resizeMap();
+		responsiveResize();
+		
+		
 
     }
 
@@ -331,11 +407,12 @@ $(function () {
     document.body.onmousemove = getMouseXY;
 
 
-    function resizeMap(paper) {
-
-        paper.changeSize(mapWidth, mapHeight, true, false);
-
-        if (useSideText == 'true') {
+    function resizeMap() {
+		
+        if(!isMobile){
+          r.changeSize(mapWidth, mapHeight, true, false);
+		  
+		  if (useSideText == 'true') {
             $(".mapWrapper").css({
                 'width': (parseFloat(mapWidth, 10) + parseFloat(textAreaWidth, 10)) + 'px',
                     'height': mapHeight + 'px'
@@ -346,8 +423,60 @@ $(function () {
                     'height': mapHeight + 'px'
             });
         }
+		}
+		else{
+	/*
+			$("#map").css({
+				'width': (parseFloat(mapWidth, 10)) + 'px',
+					'height': 'auto'
+			});
+			*/
+
+            $(".mapWrapper").css({
+                'width': mapWidth + 'px',
+                    'height': 'auto'
+            });
+        
+				
+		}
+
+        
 
     }
+	
+	
+	//responsive
+	$(window).resize(function() {
+		responsiveResize();
+	});
+	
+	function responsiveResize(){
+		
+		winWidth = win.width();
+			if (winWidth >= 960) {
+				mapWidth = oMapWidth;
+				mapHeight = mapWidth/ratio;
+				resizeMap();
+			}
+			else if (winWidth < 960 && winWidth >= 768) {
+				mapWidth = 728;
+				mapHeight = mapWidth/ratio;
+				resizeMap();
+			}
+			else if (winWidth < 480) {
+				mapWidth = 300;
+				mapHeight = mapWidth/ratio;
+				resizeMap();
+				
+			}
+			else if (winWidth < 768 && winWidth > 480) {
+				mapWidth = 420;
+				mapHeight = mapWidth/ratio;
+				resizeMap();
+				
+			}
+		
+	}
 
 
 

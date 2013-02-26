@@ -25,15 +25,16 @@
     <script src="/development/insite/js/raphael.min.js" type="text/javascript"></script>
     <script src="/development/insite/js/scale.raphael.min.js" type="text/javascript"></script>
     <script src="/development/insite/js/paths.min.js" type="text/javascript"></script>
+    <script src="/development/insite/js/jacked.min.js" type="text/javascript"></script>
     <script type="text/javascript">
-        wnt.mapsettings = "xml/usaMapSettings.xml";
+        /*wnt.mapsettings = "xml/usaMapSettings.xml";
         wnt.windowwidth = $(window).width();
         if(wnt.windowwidth < 1008){
             wnt.mapsettings = "xml/usaMapSettings2.xml";
         }
         $(window).resize(function(){
             location.reload();
-        });
+        });*/
         //paper.changeSize(mapWidth, mapHeight, true, false);
     </script>
     <script src="/development/insite/js/init.min.js" type="text/javascript"></script>
