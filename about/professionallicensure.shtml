@@ -10,7 +10,7 @@
     <!--#include virtual="/development/insite/includes/header.shtml"-->
     <section>
         <!--#include virtual="/development/insite/includes/menu.shtml"-->
-        <article>
+        <article class="map">
             <h1>Professional Licensure</h1>
             <p>InSite Engineering, LLC staff of licensed professionals include:</p>
             <div id="container">
