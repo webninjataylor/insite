@@ -20,7 +20,7 @@ textAreaPadding = "10"
   <![CDATA[]]>
 </defaultSideText>
 
-<stateData stateName="Alabama" url = "http://marketplace.envato.com/user/LGLab" stateMode = "OFF" initialStateColor= "cccccc" stateOverColor = "999999" stateSelectedColor = "feb41c">
+<stateData stateName="" url = "http://marketplace.envato.com/user/LGLab" stateMode = "OFF" initialStateColor= "cccccc" stateOverColor = "999999" stateSelectedColor = "feb41c">
 <![CDATA[]]>
 </stateData>
 
