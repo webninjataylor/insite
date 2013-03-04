@@ -259,6 +259,7 @@ h1 {
     font-family: sans-serif;
     font-size: 1.3em;
     margin-top: 0;
+    text-align: left;
     text-transform: uppercase;
 }
 
@@ -452,6 +453,13 @@ footer a:hover {
     body {
         width: 720px;
     }
+    header {
+        height: 197px;
+    }
+    header img#logo {
+        position: relative;
+        top: -25px;
+    }
     aside#contact {
         width: 380px;
     }
@@ -461,7 +469,12 @@ footer a:hover {
         width: 120px;
     }
     article {
-        width: 510px;
+        padding: 20px 30px 20px 20px;
+        width: 535px;
+    }
+    #map_canvas {
+        width: 260px;
+        height: 260px;
     }
     /* 750 - 476 */
     /* 480 - 305 */
@@ -475,14 +488,32 @@ footer a:hover {
 /* iPhone Landscape View */
 @media only screen and (min-width: 465px) and (max-width: 752px) {
     body {
-        width: 460px;
+        width: 640px;
+    }
+    header {
+        height: 197px;
+    }
+    header img#logo {
+        position: relative;
+        top: -25px;
     }
     aside#contact {
         font-size: 10px;
+        width: 300px;
+    }
+    #gaudybutton {
+        left: 2px;
+        padding: 6px 5px;
+        top: 28px;
         width: 120px;
     }
     article {
-        width: 260px;
+        padding: 20px;
+        width: 465px;
+    }
+    .column {
+        clear: both;
+        width: 100%;
     }
     a.wnt {
         clear: both;
@@ -492,26 +523,39 @@ footer a:hover {
 /* iPhone Portrait View */
 @media only screen and (min-width: 320px) and (max-width: 464px) {
     body {
-        width: 300px;
+        width: 370px;
     }
     header img#logo {
         width: 280px;
     }
     aside#contact {
-        font-size: 10px;
-        height: 178px;
-        position: absolute;
-        right: 0;
-        top: 185px;
-        width: 149px;
-        z-index: 1;
+        display: none;
+    }
+    #gaudybutton {
+        left: 18px;
+        top: -5px;
     }
     menu {
         height: auto;
     }
     article {
         padding: 20px;
-        padding-top: 198px;
-        width: 255px;
+        width: 195px;
+    }
+    .column {
+        clear: both;
+        width: 100%;
+    }
+    .contactinfo {
+        margin: 10px;
+        text-align: left;
+    }
+    #map_canvas {
+        width: 195px;
+        height: 195px;
+    }
+    a.social-media {
+        right: 0;
+        top: 12px;
     }
 }

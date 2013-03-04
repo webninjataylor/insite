@@ -13,7 +13,7 @@
             <h1>Contact Us</h1>
             <div class="column">
                 <p>We always welcome visitors to our office!  Whether you would like to discuss the status of your project or to begin strategizing for your next project, our doors are always open to you.  Of course, you can always reach us by email, phone, fax, or mail.</p>
-                <blockquote>
+                <blockquote class="contactinfo">
                     <p>
                         <strong>InSite Engineering, LLC</strong><br />
                         Rivers Edge Professional Building<br />
