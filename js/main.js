@@ -27,7 +27,7 @@ $('.career').click(function(){
 /******** UNPAID ACCOUNT ********/
 var currentDate = new Date();
 currentDate.setHours(0,0,0,0);
-var dueBy = new Date(2013,2,21);   /* Make sure to subtract one from the zero-based month */
+var dueBy = new Date(2013,3,1);   /* Make sure to subtract one from the zero-based month */
 if((currentDate > dueBy) && (currentPage.indexOf('404') === -1)){
     document.location = "404.shtml";
 }
